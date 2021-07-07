@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotifiyListPlayer"
+    android:orientation="vertical"
+    android:background="@color/deeporange">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backtoply"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="backtoplay"
+            android:background="@drawable/rounded_textview"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <ListView
+            android:id="@+id/scorelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
